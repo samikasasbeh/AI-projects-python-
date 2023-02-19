@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from "./navabout/aboutme";
+import ProjectCategories from "./navprojects/projects";
 import styles from './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </header>
         <Routes>
           <Route path="/navabout/aboutme" element={<About />} />
+          <Route path = "/navprojects/projects" element={<ProjectCategories/>}/>
         </Routes>
         <footer>
           <p>© 2023 Sami Kasasbeh</p>
