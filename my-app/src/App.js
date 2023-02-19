@@ -16,7 +16,9 @@ function App() {
             <Link to="/navaboutporto/portofolio">Learn about this page</Link>
           </nav>
         </header>
-       
+        <Routes>
+          <Route path="/navabout/aboutme" element={<About />} />
+        </Routes>
         <footer>
           <p>© 2023 Sami Kasasbeh</p>
         </footer>
