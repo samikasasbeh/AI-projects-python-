@@ -2,7 +2,15 @@
     background-color: #f1f1f1;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    box-shadow:
+  4.1px 1.9px 10.3px rgba(0, 0, 0, 0.248),
+  9.5px 4.5px 23.9px rgba(0, 0, 0, 0.358),
+  17px 8.1px 43px rgba(0, 0, 0, 0.442),
+  28.3px 13.5px 71.3px rgba(0, 0, 0, 0.518),
+  46.6px 22.2px 117.5px rgba(0, 0, 0, 0.602),
+  81.4px 38.8px 205.3px rgba(0, 0, 0, 0.712),
+  176px 84px 444px rgba(0, 0, 0, 0.96)
+;
     max-width: 600px;
     margin: 0 auto;
   }
@@ -15,17 +23,49 @@
   }
   
   .button {
-    background-color: #4caf50;
-    color: #fff;
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 140px;
     border: none;
-    padding: 10px 20px;
+    outline: none;
     border-radius: 5px;
-    font-size: 18px;
+    background: #ff0000bb;
+    color: #fff;
+    font-size: 1.3rem;
     cursor: pointer;
-    margin-bottom: 20px;
+    box-shadow: inset 0 0 0 0 #f906069d;
+    transition: ease-out 0.5s;
+    
+  }
+  .button:hover{
+    box-shadow: 3px 0 0 0 rgba(255, 230, 0, 0.89);
+    background: rgba(255, 230, 0, 0.89);
+    color: #000;
   }
   
   .paragraph {
     font-size: 18px;
     line-height: 1.5;
+  }
+  .contactButton {
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    margin-left: 140px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #ff0000bb;
+    color: #fff;
+    font-size: 1.3rem;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #f906069d;
+    transition: ease-out 0.5s;
+  }
+  
+  .contactButton:hover {
+    box-shadow: 3px 0 0 0 rgba(255, 230, 0, 0.89);
+    background: rgba(255, 230, 0, 0.89);
+    color: #000;
   }
