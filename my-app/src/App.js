@@ -9,12 +9,12 @@ function App() {
     <Router>
       <div className={styles.App}>
         <header>
-          <h1>Sami Kasasbeh's Portfolio</h1>
+          <h1>Sami Kasasbeh</h1>
           <nav>
-            <Link to="/">Home</Link>
-            <Link to="/navprojects/projects">Projects</Link>
-            <Link to="/navabout/aboutme">About</Link>
-            <Link to="/navaboutporto/portofolio">Learn about this page</Link>
+            <Link to="/" className={styles.Link}>Home</Link>
+            <Link to="/navprojects/projects" className={styles.Link}>Projects</Link>
+            <Link to="/navabout/aboutme" className={styles.Link}>About</Link>
+            <Link to="/navaboutporto/portofolio" className={styles.Link}>Learn about this page</Link>
           </nav>
         </header>
         <Routes>

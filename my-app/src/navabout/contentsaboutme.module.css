@@ -13,6 +13,8 @@
 ;
     max-width: 600px;
     margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom: 380px;
   }
   
   .title {
@@ -30,17 +32,17 @@
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #ff0000bb;
+    background: rgba(0, 17, 255, 0.945);
     color: #fff;
     font-size: 1.3rem;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #f906069d;
-    transition: ease-out 0.5s;
+    transition: ease-in-out 0.5s;
     
   }
   .button:hover{
-    box-shadow: 3px 0 0 0 rgba(255, 230, 0, 0.89);
-    background: rgba(255, 230, 0, 0.89);
+    box-shadow: 1px 0 0 0 rgba(255, 230, 0, 0.89);
+    background: rgba(255, 153, 0, 0.945);
     color: #000;
   }
   
@@ -49,23 +51,37 @@
     line-height: 1.5;
   }
   .contactButton {
-    width: 300px;
+    width: 200px;
     height: 50px;
     margin: 10px;
-    margin-left: 140px;
+    margin-left: 190px;
     border: none;
     outline: none;
     border-radius: 5px;
-    background: #ff0000bb;
+    background: rgba(0, 17, 255, 0.945);
     color: #fff;
     font-size: 1.3rem;
     cursor: pointer;
     box-shadow: inset 0 0 0 0 #f906069d;
-    transition: ease-out 0.5s;
+    transition: ease-in-out 0.5s;
   }
   
   .contactButton:hover {
-    box-shadow: 3px 0 0 0 rgba(255, 230, 0, 0.89);
-    background: rgba(255, 230, 0, 0.89);
+    box-shadow: 1px 0 0 0 rgba(255, 153, 0, 0.945);
+    background: rgba(255, 153, 0, 0.945);
     color: #000;
+  }
+  .iconContainer{
+    margin-left: 150px;
+    size: 10px;
+  }
+  .icon{
+    margin-left: 33px;
+    margin-top: 30px;
+    width: 32px;
+    height: 32px;
+    transition: ease-in-out 0.6s;
+  }
+  .icon:hover{
+    color: rgba(255, 153, 0, 0.945);
   }
