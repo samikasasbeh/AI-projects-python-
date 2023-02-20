@@ -25,6 +25,7 @@ function ProjectCategories() {
           <div className="back-button" onClick={handleBackClick}>
             Back
           </div>
+          
           <div className="category">
             <img src={image1} alt="category-1" />
           </div>
@@ -37,6 +38,7 @@ function ProjectCategories() {
           <div className="category">
             <img src={image4} alt="category-4" />
           </div>
+        
         </div>
       ) : (
         <div className="square" onClick={handleClick}>

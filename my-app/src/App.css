@@ -1,5 +1,5 @@
 .App {
-  display: flex;
+  display: fixed;
   flex-direction: column;
   min-height: 100vh;
   background-color: #f9f9f9;
@@ -16,7 +16,7 @@ header {
 }
 
 nav {
-  display: flex;
+  display: fixed;
 }
 
 nav a {
