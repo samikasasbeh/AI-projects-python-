@@ -69,12 +69,16 @@ export default ProjectCategories;*/
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
 import "./projects.css";
+import image1 from './images/image1.jpg';
+import image2 from './images/image2.jpg';
+import image3 from './images/image3.jpg';
+import image4 from './images/image4.jpg';
 
 function GroupExample() {
   return (
     <CardGroup className="d-flex justify-content-center align-items-center">
       <Card className="mx-3 mb-3">
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={image1} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -83,11 +87,11 @@ function GroupExample() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 3+ days ago</small>
         </Card.Footer>
       </Card>
       <Card className="mx-3 mb-3">
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={image2} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -96,11 +100,11 @@ function GroupExample() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 3+ days ago</small>
         </Card.Footer>
       </Card>
       <Card className="mx-3 mb-3">
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={image3} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -110,11 +114,11 @@ function GroupExample() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 3+ days ago</small>
         </Card.Footer>
       </Card>
       <Card className="mx-3 mb-3">
-        <Card.Img variant="top" src="holder.js/100px160" />
+        <Card.Img variant="top" src={image4} />
         <Card.Body>
           <Card.Title>Card title</Card.Title>
           <Card.Text>
@@ -123,7 +127,7 @@ function GroupExample() {
           </Card.Text>
         </Card.Body>
         <Card.Footer>
-          <small className="text-muted">Last updated 3 mins ago</small>
+          <small className="text-muted">Last updated 3+ days ago</small>
         </Card.Footer>
       </Card>
     </CardGroup>
